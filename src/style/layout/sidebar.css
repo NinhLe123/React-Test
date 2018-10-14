@@ -1,0 +1,71 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 1000px;
+  width: 310px;
+  background-color: #171e38;
+  z-index: 810;
+}
+.logo {
+  padding: 65px;
+}
+.logo img {
+  border-radius: 10px;
+  display: block;
+  margin: auto auto;
+  width: 155px;
+  height: 155px;
+  background-color: #202844;
+}
+.menu {
+  height: auto;
+}
+.menu > li > a {
+  padding: 12px 5px 12px 15px;
+  display: block;
+  color: #576591;
+  text-decoration: none;
+  font-size: 20pt;
+}
+.menu > li > a i.fa-home {
+  margin-left: 30px;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.treeview .icon-sidebar {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.treeview-menu {
+  padding-left: 0;
+}
+.menu > li.menu-open {
+  height: 340px;
+}
+.menu > li.menu-open > a {
+  text-decoration: none;
+  position: relative;
+  padding: 12px 5px 12px 15px;
+  display: block;
+  color: #11c786;
+  background: #11172d;
+}
+.menu li > a > .pull-right-container {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  margin-top: -12px;
+}
+
+.treeview-menu li > a {
+  background: #202844;
+  text-decoration: none;
+  position: relative;
+  font-size: 20pt;
+  padding-left: 0;
+  padding: 12px 5px 12px 15px;
+  display: block;
+  color: #576591;
+  background: #11172d;
+}

@@ -1,0 +1,9 @@
+.dashboard{
+    height: auto;
+    min-height: 100%;
+}
+.dashboard_content{
+    min-height: 1000px;
+    background-color: #11172d;
+    z-index: 800;
+}

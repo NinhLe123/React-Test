@@ -1,0 +1,29 @@
+.payments{
+    min-height: 1000px;
+    padding: 48px;
+    margin-right: auto;
+    margin-left: 310px;
+}
+ul.payment{
+    height: 100%;
+    margin: 0 auto;
+}
+ul.payment li{
+    display: flex;
+    text-align: center;
+}
+
+ul.payment li a{
+    padding: 14px 10px;
+    background-color: #0ca1ff;
+    font-size: 18pt;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #11172d !important;
+    border-radius:10px;
+}
+ul.payment li a.total{
+    padding: 14px 50px;
+}
+
+
