@@ -1,15 +1,7 @@
-# React-Test
+# Currency Converter app
 
-### Installing
+## Setup Project
 
-1. React frontend.
-
-```
-npm install
-```
-
-1. Run
-
-```
-npm start
-```
+- yarn install
+- yarn start
+- App open on 3000 port
